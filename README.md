@@ -40,3 +40,8 @@ Create Database
 ```
 After running the server you can go to http://127.0.0.1:8000/admin/
 and customize the website as you want...
+Here is the website running on pythonanywhere
+
+```bash
+    https://zahid03.pythonanywhere.com/
+```
