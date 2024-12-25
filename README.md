@@ -3,13 +3,6 @@
 
 A Django website for a company where Home, Services Testimonials, FAQ, Blog, Contact section is present to represent the company.
 ## Installation
-
-Install my-project 
-
-```bash
-  npm install my-project
-  cd my-project
-```
     
 ## Project SetUp
 
