@@ -1,3 +1,26 @@
+# AllComHub – Dockerized Django App
+
+This is a Dockerized version of a Django-based Platform. It uses the default SQLite database and is ready to run in a containerized environment.
+
+---
+
+## Docker Image
+
+Docker Hub Image:  
+➡️ [`zahid03/blog_app:v1`](https://hub.docker.com/r/zahid03/blog_app)
+
+Pull the image:
+
+```bash
+docker pull zahid03/blog_app:v1
+'''
+Run:
+'''bash
+docker run -d -p 8000:8000 zahid03/blog_app:v1
+Access the app at: http://localhost:8000
+'''
+
+
 
 # AllComHub
 
