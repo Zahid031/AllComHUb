@@ -75,20 +75,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Visit: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) to access the admin dashboard.
-
-
-
-Create Database
-```bash
-  python manage.py makemigrations
-  python manage.py migrate
-  python manage.py createsuperuser
-  python manage.py runserver
-
-```
-After running the server you can go to http://127.0.0.1:8000/admin/
-and customize the website as you want...
+Visit: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) to access the admin dashboard and customize the website as you want...
 
 Here is the live website running on pythonanywhere
 
