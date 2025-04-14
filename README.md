@@ -20,10 +20,10 @@ docker pull zahid03/blog_app:v1
 ### ▶️ Run the container
 
 ```bash
-docker run -d -p 8000:8000 zahid03/blog_app:v1
+docker run -d -p 8001:8001 zahid03/blog_app:v1
 ```
 
-Then visit: [http://localhost:8000](http://localhost:8000)
+Then visit: [http://localhost:8001](http://localhost:8001)
 
 ---
 
