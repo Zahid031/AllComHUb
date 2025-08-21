@@ -1,10 +1,11 @@
 #!/bin/sh
+set -e  # exit on first error
 
 # Run migrations
 python manage.py migrate
 
-# Collect static files (optional)
-python manage.py collectstatic 
+# Collect static files
+python manage.py collectstatic --noinput
 
 # Start Django dev server
-python manage.py runserver 0.0.0.0:8001
+exec python manage.py runserver 0.0.0.0:8001

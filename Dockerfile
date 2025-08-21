@@ -15,6 +15,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy entire project
 COPY . .
+RUN chmod +x ./entrypoint.sh
+
 
 # Expose port (default Django dev server port)
 EXPOSE 8001
